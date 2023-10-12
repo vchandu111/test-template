@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Box Model</title>
+    <style>
+      .child {
+        height: 400px;
+        width: 200px;
+        border: 2px solid red;
+        /* margin: 20px; */
+      }
+
+      #parent {
+        display: flex;
+        border: 2px solid blue;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="child">
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+          alt=""
+        />
+        <h3>Vijay shekar sharma</h3>
+        <p>Founder & CEO</p>
+        <img
+          src="https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"
+          alt=""
+        />
+      </div>
+      <div class="child"></div>
+      <div class="child"></div>
+      <div class="child"></div>
+    </div>
+  </body>
+</html>
+
+<!-- div is a container which contains all tags -->
+<!-- 
+1. Wrap all divs inside parent div
+2. Give display:flex property to only parent div -->

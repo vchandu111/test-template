@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      /* Score - 100 */
+      #para {
+        font-size: 50px;
+      }
+      /* Score - 1 */
+      p {
+        background-color: red;
+        font-size: 20px;
+      }
+
+      /* Score - 0  */
+      * {
+        font-size: 10px;
+      }
+      /* Score - 100  */
+      #para {
+        font-size: 30px;
+        background-color: green;
+      }
+      /* Score - 10  */
+      .masai {
+        font-size: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="masai" id="para">Masai school</p>
+  </body>
+</html>
+
+<!-- 
+    specificity - SICTU
+    S - inline styles - 1000
+    I - ID - 100
+    C - Class - 10
+    T - Tag selector - 1
+    U - Universal - 0
+ -->
